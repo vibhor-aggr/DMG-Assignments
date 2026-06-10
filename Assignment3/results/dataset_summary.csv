@@ -1,0 +1,4 @@
+dataset,name,samples,features,classes,source
+breast_cancer,Breast Cancer Wisconsin Diagnostic,569,30,2,https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+iris,Iris,150,4,3,https://archive.ics.uci.edu/dataset/53/iris
+wine,Wine Recognition,178,13,3,https://archive.ics.uci.edu/dataset/109/wine

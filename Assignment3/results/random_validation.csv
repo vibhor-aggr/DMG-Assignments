@@ -1,0 +1,10 @@
+dataset,family,observed_silhouette,random_mean_silhouette,random_repetitions,empirical_p_value_random_ge_observed
+breast_cancer,density,,,0,
+iris,density,0.82059005405406,0.5286173610505663,1,0.0
+wine,density,0.5394827049465294,,0,
+breast_cancer,hierarchical,0.6606668813897673,0.015785074941840494,5,0.0
+iris,hierarchical,0.504645610832545,0.1527486675715341,5,0.0
+wine,hierarchical,0.2774439826952266,0.05229036969399651,5,0.0
+breast_cancer,prototype,0.3491337093300296,0.03073840583630195,5,0.0
+iris,prototype,0.5817500491982808,0.19222834487386528,5,0.0
+wine,prototype,0.28485891918989864,0.06891047016387195,5,0.0

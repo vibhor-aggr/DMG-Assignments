@@ -1,0 +1,41 @@
+{
+  "dataset": {
+    "items": 1020,
+    "rows_after_cleaning": 99892,
+    "source": "https://raw.githubusercontent.com/MengtingWan/marketBias/master/data/df_modcloth.csv",
+    "sparsity": 0.9978131582669019,
+    "users": 44783
+  },
+  "mean_baseline_test": {
+    "mae": 0.8634870379852232,
+    "rmse": 1.0805323714583235
+  },
+  "model": {
+    "fallback": "user/item/global mean fallback for cold-start or zero-similarity rows",
+    "name": "Item-based collaborative filtering",
+    "similarity": "Adjusted cosine similarity over user-centered item vectors",
+    "top_k_neighbors": 30
+  },
+  "split": {
+    "strategy": "85/15 stratified split by rating, with explicit cold-start fallbacks",
+    "test_pct": 0.15000200216233534,
+    "test_rows": 14984,
+    "train_pct": 0.8499979978376647,
+    "train_rows": 84908
+  },
+  "test": {
+    "cold_item_pct": 0.00026695141484249865,
+    "cold_item_rows": 4,
+    "cold_user_pct": 0.3253470368392952,
+    "cold_user_rows": 4875,
+    "mae": 0.8797840570794181,
+    "rmse": 1.1898976834306605,
+    "rows": 14984
+  },
+  "validation": {
+    "mae_mean": 0.8723680029823788,
+    "mae_std": 0.008406141169117094,
+    "rmse_mean": 1.1754276773256715,
+    "rmse_std": 0.009586109052433773
+  }
+}

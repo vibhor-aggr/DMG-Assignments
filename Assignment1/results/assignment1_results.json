@@ -1,0 +1,64 @@
+{
+  "correlation_pairs": {
+    "least_correlated": {
+      "attribute_1": "beaches",
+      "attribute_2": "cafes",
+      "correlation": 0.0011051214499566996
+    },
+    "most_anti_correlated": {
+      "attribute_1": "malls",
+      "attribute_2": "view_points",
+      "correlation": -0.36028733288104314
+    },
+    "most_correlated": {
+      "attribute_1": "parks",
+      "attribute_2": "theatres",
+      "correlation": 0.6268678120130018
+    }
+  },
+  "covariance_inner_outer_max_abs_difference": 8.570921750106208e-14,
+  "dataset": {
+    "name": "Google Review Ratings / Travel Review Ratings",
+    "notes": [
+      "The source CSV contains a trailing unnamed column.",
+      "Two malformed rows were repaired by numeric coercion and median imputation."
+    ],
+    "rating_attributes": 24,
+    "rows": 5456,
+    "source": "https://archive.ics.uci.edu/dataset/485/tarvel+review+ratings"
+  },
+  "mean_vector": {
+    "art_galleries": 2.206572580645183,
+    "bakeries": 0.969811217008803,
+    "beaches": 2.4893310117302017,
+    "beauty_spas": 1.00007148093842,
+    "burger_pizza_shops": 2.078267961876827,
+    "cafes": 0.9658376099706815,
+    "churches": 1.4557203079178844,
+    "dance_clubs": 1.192800586510276,
+    "gardens": 1.5606598240469287,
+    "gyms": 0.8224138563049909,
+    "hotels_lodgings": 2.1255113636363636,
+    "juice_bars": 2.1908614369501564,
+    "local_services": 2.550007331378299,
+    "malls": 3.3513947947214002,
+    "monuments": 1.5314534457477984,
+    "museums": 2.8934897360703777,
+    "parks": 2.796885997067434,
+    "pubs_bars": 2.8327291055718593,
+    "resorts": 2.319706744868035,
+    "restaurants": 3.1260190615835812,
+    "swimming_pools": 0.9492027126099812,
+    "theatres": 2.9589406158357874,
+    "view_points": 1.7505370234604145,
+    "zoo": 2.5407954545454605
+  },
+  "pca": {
+    "explained_variance_ratio": [
+      0.19660793837240323,
+      0.14557104934136367
+    ],
+    "interpretation": "The first two principal components summarize broad preference intensity and a contrast between leisure/food venues and landmark-style venues. The projection shows overlapping groups rather than sharply separated classes."
+  },
+  "total_variance": 39.55034445493118
+}

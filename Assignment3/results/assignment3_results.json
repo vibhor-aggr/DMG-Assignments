@@ -1,0 +1,124 @@
+{
+  "best_density": [
+    {
+      "adjusted_rand": 0.04667363215790398,
+      "algorithm": "OPTICS",
+      "clusters_found": 1,
+      "dataset": "breast_cancer",
+      "davies_bouldin": NaN,
+      "nmi": 0.08020396989804378,
+      "purity": 0.6590509666080844,
+      "silhouette": NaN
+    },
+    {
+      "adjusted_rand": 0.03372723101913276,
+      "algorithm": "OPTICS",
+      "clusters_found": 2,
+      "dataset": "iris",
+      "davies_bouldin": 0.25070745121085947,
+      "nmi": 0.20716190748350877,
+      "purity": 0.48,
+      "silhouette": 0.82059005405406
+    },
+    {
+      "adjusted_rand": 0.17241139299771782,
+      "algorithm": "OPTICS",
+      "clusters_found": 2,
+      "dataset": "wine",
+      "davies_bouldin": 0.7121771075529513,
+      "nmi": 0.34685622318489046,
+      "purity": 0.6348314606741573,
+      "silhouette": 0.5394827049465294
+    }
+  ],
+  "best_hierarchical": [
+    {
+      "adjusted_rand": 0.0048283446965917305,
+      "algorithm": "single",
+      "clusters_found": 2,
+      "dataset": "breast_cancer",
+      "davies_bouldin": 0.4497088717504179,
+      "nmi": 0.010182219220269649,
+      "purity": 0.6309314586994728,
+      "silhouette": 0.6606668813897673
+    },
+    {
+      "adjusted_rand": 0.5583714437541352,
+      "algorithm": "single",
+      "clusters_found": 3,
+      "dataset": "iris",
+      "davies_bouldin": 0.49292522768291486,
+      "nmi": 0.7201176036115982,
+      "purity": 0.6666666666666666,
+      "silhouette": 0.504645610832545
+    },
+    {
+      "adjusted_rand": 0.7899332213582837,
+      "algorithm": "minimum_variance",
+      "clusters_found": 3,
+      "dataset": "wine",
+      "davies_bouldin": 1.4185919431857326,
+      "nmi": 0.7864652657004839,
+      "purity": 0.9269662921348315,
+      "silhouette": 0.2774439826952266
+    }
+  ],
+  "best_prototype": [
+    {
+      "adjusted_rand": 0.607897053014855,
+      "algorithm": "KMedoids",
+      "clusters_found": 2,
+      "dataset": "breast_cancer",
+      "davies_bouldin": 1.324375102827032,
+      "nmi": 0.49107103300196786,
+      "purity": 0.8910369068541301,
+      "silhouette": 0.3491337093300296
+    },
+    {
+      "adjusted_rand": 0.5681159420289855,
+      "algorithm": "KMedoids",
+      "clusters_found": 2,
+      "dataset": "iris",
+      "davies_bouldin": 0.5933126905762433,
+      "nmi": 0.7336804366512104,
+      "purity": 0.6666666666666666,
+      "silhouette": 0.5817500491982808
+    },
+    {
+      "adjusted_rand": 0.8974949815093207,
+      "algorithm": "KMeans_baseline",
+      "clusters_found": 3,
+      "dataset": "wine",
+      "davies_bouldin": 1.3891879777181646,
+      "nmi": 0.875893534122307,
+      "purity": 0.9662921348314607,
+      "silhouette": 0.28485891918989864
+    }
+  ],
+  "datasets": [
+    {
+      "classes": 2,
+      "dataset": "breast_cancer",
+      "features": 30,
+      "name": "Breast Cancer Wisconsin Diagnostic",
+      "samples": 569,
+      "source": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic"
+    },
+    {
+      "classes": 3,
+      "dataset": "iris",
+      "features": 4,
+      "name": "Iris",
+      "samples": 150,
+      "source": "https://archive.ics.uci.edu/dataset/53/iris"
+    },
+    {
+      "classes": 3,
+      "dataset": "wine",
+      "features": 13,
+      "name": "Wine Recognition",
+      "samples": 178,
+      "source": "https://archive.ics.uci.edu/dataset/109/wine"
+    }
+  ]
+}
